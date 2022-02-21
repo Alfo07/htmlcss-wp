@@ -63,14 +63,14 @@ nav a{
     object-fit: cover;
 }
 
-.hoverlay::before{
+.overlay1::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero .banner-text{
@@ -94,13 +94,11 @@ nav a{
 .col{
     float: left;
     width: 20%;
-    position: relative;
 }
 
 .col-center{
     width: 60%;
     padding: 0 20px;
-    position: relative;
 }
 
 h2{
@@ -109,13 +107,13 @@ h2{
 
 h3{
     font-size: 15px;
-    font-weight: 10;
+    font-weight: 100;
     color: #acacac;
 }
 
 h4{
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 100;
     padding: 15px 0;
 }
 
@@ -149,4 +147,22 @@ footer p{
 p span{
     color: red;
 }
+
+.box{
+    position: relative;
+}
+
+.overlay2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+
 
